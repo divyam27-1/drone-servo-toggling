@@ -76,7 +76,7 @@ def generate_mission_waypoints(mission, outpath, _takeoff=(LAT_MAX, LON_MIN), fl
                     frame,
                     mavutil.mavlink.MAV_CMD_DO_SET_SERVO,
                     0,
-                    3,
+                    SERVO_TO_SET,
                     pwm,
                     0,
                     0,
